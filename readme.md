@@ -1,4 +1,5 @@
-<p align="center"><img align="center" src="./img/detalhe.svg"> <br> <br></p>
+<br>
+<p align="center"><img align="center" src="./img/detalhe.svg">  <br></p>
 
 <h1 align="center"> Portófio </h1>
 
