@@ -41,7 +41,7 @@
 
 <h2 id="projeto"> 💻 Projeto </h2>
 
-<p>Projeto criado com intuito de treinar display</p> 
+<p>Projeto criado com intuito de treinar ferramentas de desenvolvimento web.</p> 
 <hr>
 <br>
 <p> Criado por Lucas Freitas 🖖🏽| <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo </a> <p> 
