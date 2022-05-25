@@ -18,6 +18,11 @@
     padding: 10px 20px;
 }
 
+.menu a:hover{
+    background-color: #9BA6C3;
+    border-radius: 4px;
+}
+
 @media(max-width: 800px){
     .header{
         flex-direction: column;
