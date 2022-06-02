@@ -49,7 +49,7 @@
     }
 
     .introducao-titulo{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .introducao-titulo::before{
@@ -66,13 +66,14 @@
     }
 }
 
-@media(max-width: 400px){
+@media(max-width: 420px){
     .introducao{
         grid-template-columns: 1fr;
         gap: 0px;
     }
 
     .introducao-titulo{
+        font-size: 2.1rem;
         margin-bottom: 20px;
     }
 
