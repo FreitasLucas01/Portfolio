@@ -58,6 +58,13 @@
         transition: 0.4s;
     }
 
+    .menu a {
+        font-size: 1.5rem;
+        padding: 16px 0;
+        margin: 0 20px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+
     .nav.ativo .menu {
         transform: translateX(0);
         padding: 16px 0;
@@ -73,11 +80,5 @@
 
     .nav.ativo .linha3 {
         transform: rotate(45deg) translate(-8px, -10px);
-    }
-
-    .menu a {
-        padding: 16px 0;
-        margin: 0 20px;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
     }
 }
