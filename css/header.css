@@ -29,7 +29,7 @@
 }
 
 #btnMenu div {
-    width: 32px;
+    width: 33px;
     height: 2px;
     background: #141414;
     margin: 10px 0;
@@ -41,6 +41,14 @@
         overflow-x: hidden;
     }
 
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background:rgba(155, 166, 195, 0.5);
+        padding: 20px;
+    }
+
     #btnMenu {
         display: block;
     }
@@ -49,9 +57,9 @@
         display: block;
         position: absolute;
         width: 60vw;
-        top: 90px;
+        top: 89px;
         right: -60vw;
-        height: calc(100vh - 90px);
+        height: calc(100vh - 89px);
         background: #F5F5F5;
         z-index: 1000;
         transition: 0.3s;
