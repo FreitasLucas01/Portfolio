@@ -55,7 +55,7 @@
         background: #F5F5F5;
         z-index: 1000;
         transform: translateX(100%);
-        transition: 0.5s;
+        transition: 0.4s;
     }
 
     .nav.ativo .menu {
