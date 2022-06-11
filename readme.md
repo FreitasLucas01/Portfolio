@@ -14,6 +14,7 @@
 
 
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/1.gif> </h2>
+<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/2.gif> </h2>
 
 
 <br>
@@ -28,7 +29,9 @@
  - [x] Página totalmente responsiva <br>
  - [x] Link para os projetos descritos</br>
  - [x] Design simples e moderno <br>
- - [x] Cores correspondentes<br> <br>
+ - [x] Cores correspondentes<br>
+ - [x] Acessibilidade<br>
+ - [x] Menu Hambúrguer<br> <br>
 
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
@@ -37,6 +40,7 @@
 
 ✔️HTML<br><br>
 ✔️CSS<br><br>
+✔️JavaScript<br><br>
 
 
 <h2 id="projeto"> 💻 Projeto </h2>
