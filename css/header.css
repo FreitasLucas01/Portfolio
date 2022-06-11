@@ -50,11 +50,10 @@
         position: absolute;
         width: 60vw;
         top: 90px;
+        right: -60vw;
         height: calc(100vh - 90px);
-        right: 0;
         background: #F5F5F5;
         z-index: 1000;
-        transform: translateX(100%);
         transition: 0.3s;
     }
 
@@ -66,8 +65,8 @@
     }
 
     .nav.ativo .menu {
-        transform: translateX(0);
         padding: 16px 0;
+        right: 0;
     }
 
     .nav.ativo .linha1 {
