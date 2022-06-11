@@ -36,6 +36,13 @@
     transition: 0.3s;
 }
 
+@media(max-width: 800px){
+    .menu a {
+        font-size: 1.125rem;
+        padding: 5px;
+    }
+}
+
 @media(max-width: 600px) {
     body {
         overflow-x: hidden;
