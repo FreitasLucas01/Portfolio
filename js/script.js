@@ -38,3 +38,4 @@ function acessibilidade() {
     itens.addEventListener("click", handleClick)
   })
 }
+acessibilidade()

@@ -1,34 +1,34 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: #000;
     font-size: 1.125rem;
     padding: 10px 20px;
 }
 
-.menu a:hover{
+.menu a:hover {
     background-color: #9BA6C3;
 }
 
-#btnMenu{
+#btnMenu {
     background: none;
     border: none;
     cursor: pointer;
     display: none;
 }
 
-#btnMenu div{
+#btnMenu div {
     width: 32px;
     height: 2px;
     background: #141414;
@@ -36,12 +36,16 @@
     transition: 0.4s;
 }
 
-@media(max-width: 600px){
-    #btnMenu{
+@media(max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #btnMenu {
         display: block;
     }
 
-    .menu{
+    .menu {
         display: block;
         position: absolute;
         width: 50vw;
@@ -51,33 +55,29 @@
         background: #F5F5F5;
         z-index: 1000;
         transform: translateX(100%);
-        transition: 0.3s;
-        visibility: hidden;
+        transition: 0.5s;
     }
 
-    .nav.ativo .menu{
-        visibility: visible;
+    .nav.ativo .menu {
         transform: translateX(0);
         padding: 16px 0;
     }
 
-    .nav.ativo .linha1{
-        transform: rotate(-45deg) translate(-8px , 8px);
+    .nav.ativo .linha1 {
+        transform: rotate(-45deg) translate(-8px, 8px);
     }
 
-    .nav.ativo .linha2{
+    .nav.ativo .linha2 {
         opacity: 0;
     }
 
-    .nav.ativo .linha3{
-        transform: rotate(45deg) translate(-8px , -10px);
+    .nav.ativo .linha3 {
+        transform: rotate(45deg) translate(-8px, -10px);
     }
 
-    .menu a{
+    .menu a {
         padding: 16px 0;
         margin: 0 20px;
         border-bottom: 2px solid rgba(0, 0, 0, 0.05);
     }
-    
-    
 }

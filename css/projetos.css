@@ -112,8 +112,9 @@
         text-align: initial;
         width: initial;
     }
-
 }
+
+ 
 
 @media(max-width: 400px){
     .projetos-detalhes{

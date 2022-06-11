@@ -43,6 +43,9 @@
 }
 
 @media(max-width: 800px){
+    body{
+          ;
+    }
     .introducao{
         grid-template-columns: 1fr 1fr;
         gap: 40px;
@@ -66,7 +69,12 @@
     }
 }
 
+ 
+
 @media(max-width: 420px){
+    body{
+          ;
+    }
     .introducao{
         grid-template-columns: 1fr;
         gap: 0px;
@@ -83,6 +91,9 @@
 }
 
 @media(max-width: 320px){
+    body{
+          ;
+    }
     .introducao-texto{
         font-size: 0.989rem;
     }
