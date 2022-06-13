@@ -2,6 +2,8 @@ function btnMenuAtivo() {
   const btnMenu = document.querySelector(".nav #btnMenu")
 
   function handleClick(e) {
+    if (e.type === "touchstart")
+      e.preventDefault
     const nav = document.querySelector(".nav")
     nav.classList.toggle("ativo")
     const ativo = nav.classList.contains("ativo")
@@ -15,6 +17,7 @@ function btnMenuAtivo() {
 
 
   btnMenu.addEventListener("click", handleClick)
+  btnMenu.addEventListener("touchstart", handleClick)
 }
 btnMenuAtivo()
 
