@@ -64,11 +64,13 @@
         right: -100vw;
         height: calc(100vh - 68px);
         background: #F5F5F5;
+        transform: translateX(100%);
         z-index: 1000;
         transition: 0.4s;
     }
 
     .js .nav.ativo .menu {
+        transform: translateX(0);
         right: 0;
     }
 
