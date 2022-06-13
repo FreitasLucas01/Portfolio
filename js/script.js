@@ -2,8 +2,8 @@ function btnMenuAtivo() {
   const btnMenu = document.querySelector(".nav #btnMenu")
 
   function handleClick(e) {
-   if (e.type === "touchstart")
-      e.preventDefault ()
+    if (e.type === "touchstart")
+      e.preventDefault()
     const nav = document.querySelector(".nav")
     nav.classList.toggle("ativo")
     const ativo = nav.classList.contains("ativo")
@@ -63,7 +63,7 @@ smoothScroll()
 function slideAnimation() {
   const sectionsLeftSlide = document.querySelectorAll(".js-leftSlide");
   const sectionsRightSlide = document.querySelectorAll(".js-rightSlide");
-  const sectionsTop = window.innerHeight * 0.6;
+  let sectionsTop = window.innerHeight * 0.6;
 
   function handleScroll() {
     sectionsLeftSlide.forEach((itens) => {
@@ -77,10 +77,18 @@ function slideAnimation() {
 
     sectionsRightSlide.forEach((itens) => {
       const itensTop = itens.getBoundingClientRect().top
-      const sectionView = (itensTop - sectionsTop) < 0
-
-      if (sectionView) {
-        itens.classList.add("ativo")
+      if (window.matchMedia("(max-width: 420px)").matches) {
+        sectionsTop = window.innerHeight * 0.7;
+        const lis = document.querySelectorAll(".faculdade li")
+        const sectionView = (itensTop - sectionsTop) < 0
+        if (sectionView) {
+          itens.classList.add("ativo")
+        }
+      } else {
+        const sectionView = (itensTop - sectionsTop) < 0
+        if (sectionView) {
+          itens.classList.add("ativo")
+        }
       }
     })
   }
@@ -89,5 +97,3 @@ function slideAnimation() {
   window.addEventListener("scroll", handleScroll)
 }
 slideAnimation()
-
-
