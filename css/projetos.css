@@ -4,6 +4,10 @@
     gap: 100px;
 }
 
+.projetos h2 span{
+    display: inline-block;
+}
+
 .projetos .subtitulo{
     font-size: 7.6rem;
     word-break: break-all;
@@ -91,7 +95,7 @@
         grid-template-columns: 1fr;
         gap: 50px;
     }
-
+    
     .projetos .subtitulo{
         font-size: 3rem;
         word-break: break-all;
