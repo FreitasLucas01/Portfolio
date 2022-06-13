@@ -58,7 +58,7 @@
 
     .js .menu {
         display: block;
-        position: absolute;
+        position: fixed;
         width: 100vw;
         top: 68px;
         right: -100vw;
