@@ -66,10 +66,10 @@
         background: #F5F5F5;
         z-index: 1000;
         transition: 0.4s;
+
     }
 
     .js .nav.ativo .menu {
-        /* padding: 16px 0; */
         right: 0;
     }
 
