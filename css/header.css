@@ -53,7 +53,7 @@
         top: 0;
         z-index: 1;
         background:rgba(155, 166, 195, 0.5);
-        padding: 20px;
+        padding: 10px 20px;
     }
 
     .js #btnMenu {
@@ -64,7 +64,7 @@
         display: block;
         position: absolute;
         width: 60vw;
-        top: 89px;
+        top: 68px;
         right: -60vw;
         height: calc(100vh - 89px);
         background: #F5F5F5;
