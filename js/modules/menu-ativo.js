@@ -6,6 +6,7 @@ export default function initMenuAtivo() {
       e.preventDefault()
     const nav = document.querySelector(".nav")
     nav.classList.toggle("ativo")
+    document.body.classList.toggle("ativo")
     const ativo = nav.classList.contains("ativo")
     e.currentTarget.setAttribute("aria-expanded", ativo)
     if (ativo)

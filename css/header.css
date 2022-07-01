@@ -45,6 +45,9 @@
 }
 
 @media(max-width: 600px) {
+    body.ativo{
+        overflow-y: hidden;
+    }
     .js .header {
         position: sticky;
         top: 0;
